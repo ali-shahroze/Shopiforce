@@ -63,7 +63,20 @@ padding-top: 6em;
 }
 .sub-main-bottom
 {
-    width:200%;
+    width:100%;
     margin-top: 6em;
     
 }
+.step-descriptions
+{
+    font-size: 0.550em;
+    display: flex;
+    justify-content: space-evenly;
+}
+.step-description
+{
+    padding: 0 4em;
+}
+.slds-input::placeholder {
+    font-size: small; /* You can adjust the font size to your preference */
+  }
