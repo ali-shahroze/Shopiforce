@@ -2,7 +2,7 @@
     display: flex;
 justify-content: center;
 background-color: rgb(234 255 219);
-height: 80vh;
+height: 100vh;
 align-items: center;
 flex-direction: column;
 padding-top: 6em;
@@ -64,7 +64,6 @@ padding-top: 6em;
 .sub-main-bottom
 {
     width:100%;
-    margin-top: 6em;
     
 }
 .step-descriptions
@@ -75,7 +74,7 @@ padding-top: 6em;
 }
 .step-description
 {
-    padding: 0 4em;
+    padding: 0 2em;
 }
 .slds-input::placeholder {
     font-size: small; /* You can adjust the font size to your preference */

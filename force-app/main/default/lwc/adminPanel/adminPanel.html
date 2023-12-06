@@ -60,9 +60,9 @@
         
                 <div class="slds-form-element slds-m-top_small">
                   <label class="slds-form-element__label">
-                    Store Name: </label>
+                    Store Url: </label>
                   <div class="slds-form-element__control">
-                    <input type="text"  placeholder="Store Name" class="slds-input" />
+                    <input type="text"  placeholder="\{storename}.myshopify.com" class="slds-input" />
                   </div>
                 </div>
                 <div class="slds-form-element slds-m-top_small">
@@ -85,7 +85,7 @@
                 <lightning-button variant="brand" label="Submit" title="Primary action" class=""></lightning-button>
             </div>
             <!-- Bottom Section -->
-    <div class="sub-main-bottom ">
+    <div class="sub-main-bottom slds-m-top_xx-large">
         <!-- Progress Indicator -->
         <lightning-progress-indicator current-step={currentStepRequestIndicator} type="base" has-error={error} variant="base" class="request-indicator">
             <lightning-progress-step label="Step 1" value="1"></lightning-progress-step>
